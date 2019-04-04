@@ -116,3 +116,22 @@ def upload_profile(request):
 
 
     return render(request,'upload_profile.html',{"title":title,"current_user":current_user,"form":form})
+
+def votes(request,id):
+    current_user = request.user
+    post = Project.objects.get(id=id)
+    votes = Votes.objects.filter(project=post)
+  
+    if request.method == 'POST':
+            vote = VotesForm(request.POST)
+            if vote.is_valid():
+                design = vote.cleaned_data['design']
+                usability = vote.cleaned_data['usability']
+                content = vote.cleaned_data['content']
+                rating = Votes(design=design,usability=usability,content=content,user=request.user,project=post)
+                rating.save()
+                return redirect(index)      
+    else:
+        form = VotesForm()
+        return render(request, 'new-vote.html', {"form":form,'post':post,'user':current_user,'votes':votes})
+

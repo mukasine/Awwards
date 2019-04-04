@@ -22,3 +22,8 @@ class RatingForm(forms.ModelForm):
 	
 	usability= forms.IntegerField(label='Project Caption')
 	content= forms.IntegerField(label = 'Project Field')
+class VotesForm(forms.ModelForm):
+    class Meta:
+        model = Votes
+        exclude = ['user','project','posted_on']
+   
