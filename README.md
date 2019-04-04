@@ -30,10 +30,6 @@ This is a simple web clone of the instagram website. A user can create an accoun
 * django==1.11
 * bootsrap3
 
-## Clone the Repo
-
-* Run the following command on the terminal: git clone https://github.com/mukasine/awwards.git 
-* type cd instaG on terminal
 
 
 ## Known bugs
