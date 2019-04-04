@@ -1,25 +1,26 @@
-{%extends 'all-awwa/base.html'%} 
-{% block content %}
-<div class="container" style="margin-top: 200px">
 
-  <div class="row">
-    {% if images %}
-      <h2>Found {{ images|length }} of searched term {{message}}</h2>
-    {% else %}
-      <h2> Found 0 profiles for the search term {{message}}</h2>
-    {% endif %}
+{% endblock %}
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% block content %}<br><br><br>
 
-  </div>
-
-  <div class="row">
-
-  {% if images %}
-    {% for image in images %}
-      <div class="col-sm-6 col-md-12">
-          <h1>{{image.image_name}}</h1>
+<div class="container">
+    <h3 class="text-center">{{project.project_title}}</h3>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+          <img src="{{project.landing_page.url}}" alt="" height="400" width="400" style="border-radius:50px"><br><br>
+          <button type="button" class="btn btn-outline-success">
+            <a target="_blank" href="{{project.live_site}}" class="btn">Visit Site</a></button>
       </div>
-    {% endfor %}
-  {% endif %}
+      <div class="col-md-4"></div>
+    </div>
+    {% autoescape on%}
+    <p class="text-center">{{project.project_description | safe}}</p>
+    {% endautoescape%}
+          <p class="text-center">Design: {{project.design}}</p>
+          <p class="text-center">Usability: {{project.usability}}</p>
+          <p class="text-center">Content: {{project.content}}</p>
+    <p class="text-center">By <span>{{project.user.username}}</span></p>
   </div>
-</div>
 {% endblock %}
