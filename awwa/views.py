@@ -7,14 +7,20 @@ from .email import send_welcome_email
 from django.contrib.auth.decorators import login_required
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .models import  MoringaMerch
-from .serializer import MerchSerializer
+from django.contrib.auth.models import User 
+from .serializer import ProjectSerializer,ProfileSerializer
 
 #........
-class MerchList(APIView):
+class ProjectList(APIView):
     def get(self, request, format=None):
-        all_merch = MoringaMerch.objects.all()
-        serializers = MerchSerializer(all_merch, many=True)
+        all_projects = Project.objects.all()
+        serializers = ProjectSerializer(all_projects, many=True)
+        return Response(serializers.data)
+
+class ProfileList(APIView):
+    def get(self, request, format=None):
+        all_users = UserProfile.objects.all()
+        serializers = ProfileSerializer(all_users, many=True)
         return Response(serializers.data)
 # # Create your views here.
 # def welcome(request):
