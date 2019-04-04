@@ -39,7 +39,15 @@ This is a simple web clone of the instagram website. A user can create an accoun
 ## Known bugs
 No bugs but in case of encounter contact me.
 
-
+## Technologies used
+- Python 3.6
+- HTML for the structure
+- Bootstrap 3 for the design
+- JavaScript
+- Heroku for the deployment
+- Postgresql for the database
+## Support and contact details
+ For any support please contact me on mclaremukasine@gmail.com or 0782586013
 
 
 ## License
