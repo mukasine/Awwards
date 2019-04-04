@@ -8,17 +8,6 @@ This is an app where users can review apps made by other devs, April 3rd,2019.
 
 This is a simple web clone of the instagram website. A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
 
-## Specifications
-
-* Sign in to the application to start using.
-* Upload my project to the application.
-* Rate/View other people's project.
-* View api information of the user.
-* Like a picture and leave a comment on it.
-
-1. Users can post projects, comment, and rate other projects,
-
-2. User can search other users project.
 
 
 ## Set Up and Installations
