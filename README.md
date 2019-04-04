@@ -48,8 +48,6 @@ No bugs but in case of encounter contact me.
 - Postgresql for the database
 ## Support and contact details
  For any support please contact me on mclaremukasine@gmail.com or 0782586013
-
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2019 **MUKASINE Marie Claire**
