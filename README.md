@@ -1,7 +1,5 @@
 ### Awwards
 
-### INTRODUCTION
-This is an app where users can review apps made by other devs, April 3rd,2019.
 
 
 ## Description
