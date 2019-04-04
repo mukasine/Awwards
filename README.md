@@ -30,6 +30,10 @@ This is a simple web clone of the instagram website. A user can create an accoun
 * django==1.11
 * bootsrap3
 
+## Clone the Repo
+
+* Run the following command on the terminal: git clone https://github.com/mukasine/awwards.git 
+* type cd awwards on terminal
 
 
 ## Known bugs
@@ -38,7 +42,7 @@ No bugs but in case of encounter contact me.
 ## Technologies used
 - Python 3.6
 - HTML for the structure
-- Bootstrap 4 for the design
+- Bootstrap 3 for the design
 - JavaScript
 - Heroku for the deployment
 - Postgresql for the database
