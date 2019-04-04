@@ -19,7 +19,7 @@ class ProjectList(APIView):
 
 class ProfileList(APIView):
     def get(self, request, format=None):
-        all_users = UserProfile.objects.all()
+        all_users = Profile.objects.all()
         serializers = ProfileSerializer(all_users, many=True)
         return Response(serializers.data)
 # # Create your views here.
