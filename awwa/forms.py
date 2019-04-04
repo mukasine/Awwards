@@ -24,6 +24,6 @@ class RatingForm(forms.ModelForm):
 	content= forms.IntegerField(label = 'Project Field')
 class VotesForm(forms.ModelForm):
     class Meta:
-        model = Votes
+        # model = Votes
         exclude = ['user','project','posted_on']
    
