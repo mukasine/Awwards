@@ -51,9 +51,9 @@ def past_days_awwa(request, past_date):
 
 def search_results(request):
 
-    if 'image' in request.GET and request.GET["image"]:
-        search_term = request.GET.get("image")
-        searched_images = Image.search_by_name(search_term)
+    if 'project' in request.GET and request.GET["project"]:
+        search_term = request.GET.get("project")
+        searched_images = Project.search_by_title(search_term)
         message = f"{search_term}"
 
         return render(request, 'all-awwa/search.html',{"message":message,"images": searched_images})
