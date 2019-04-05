@@ -1,0 +1,71 @@
+[33mcommit 271a4c9de42092fc957ca82bdcc640928bd1186e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Fri Apr 5 13:11:41 2019 +0200
+
+    adding migrate in models.py
+
+[33mcommit 85f3f35f0631c4864ede4ee9d6c7777b2ce73b72[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Fri Apr 5 13:00:03 2019 +0200
+
+    adding class ImageTestClass in test.py
+
+[33mcommit d177739597fb28e95a955d951d5c53a9c8609387[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Fri Apr 5 12:51:09 2019 +0200
+
+    adding class NewProjectForm in forms.py
+
+[33mcommit 30369d0105827d45f2b942e631390251c2f18e6c[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Fri Apr 5 12:48:21 2019 +0200
+
+    adding class profileUploadForm in forms.py
+
+[33mcommit 9be8c43da4f2117a1e2ee5d69cdf62c8d7d49689[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Fri Apr 5 12:40:46 2019 +0200
+
+    adding class moringaMerch in models.py
+
+[33mcommit 86b1c2017c66a64be95949a4accb3b1188716489[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Fri Apr 5 12:32:49 2019 +0200
+
+    adding class profileList in views.py
+
+[33mcommit 45012ac32c2172e82eb7c43b98196f3063819e8b[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Fri Apr 5 12:32:00 2019 +0200
+
+    adding class projectList in views.py
+
+[33mcommit f0b67699d17234611d9c1f82d14501e2f2806a39[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Thu Apr 4 20:11:44 2019 +0200
+
+    deleting the link in navigation bar
+
+[33mcommit 940c1d97cb1db21bcf1ffac35a7dfb4ea669e089[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Thu Apr 4 19:47:51 2019 +0200
+
+    fixing errors in navigation bar
+
+[33mcommit ef843e97ecc4175c6257f4478b24427a8dd0d988[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Thu Apr 4 18:44:51 2019 +0200
+
+    adding the urls of api in the file urls.py
+
+[33mcommit bf22ffa53070477577d22edee60d54bd84e83312[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Thu Apr 4 15:00:04 2019 +0200
+
+    addingfonction votes in views.py
+
+[33mcommit 46863689c0980d90bd28bc3baa8af386e0a7dcf2[m
+Author: mukasine marie claire <mclaremukasine@gmail.com>
+Date:   Thu Apr 4 14:58:22 2019 +0200
+
+    addingclass votes in models.py
