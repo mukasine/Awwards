@@ -11,13 +11,6 @@ class ProjectTestClass(TestCase):
         self.assertTrue(isinstance(self.wecode,Project))
 
      
-class RatingTestClass(TestCase):
-    # Set up method
-    def setUp(self):
-        self.wecode= Rating()
-    # Testing  instance
-    def test_instance(self):
-        self.assertTrue(isinstance(self.wecode,Rating))
 
    
 class ProfileTestClass(TestCase):
