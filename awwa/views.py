@@ -11,11 +11,7 @@ from django.contrib.auth.models import User
 from .serializer import ProjectSerializer,ProfileSerializer
 
 #........
-class ProjectList(APIView):
-    def get(self, request, format=None):
-        all_projects = Project.objects.all()
-        serializers = ProjectSerializer(all_projects, many=True)
-        return Response(serializers.data)
+
 
 class ProfileList(APIView):
     def get(self, request, format=None):
