@@ -89,9 +89,9 @@ class Votes(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)
     posted_on = models.DateTimeField(auto_now_add=True,)
     project =  models.ForeignKey(Project,on_delete=models.CASCADE)
-    design = models.IntegerField(choices=list(zip(range(2, 10), range(2, 10))))
-    usability = models.IntegerField(choices=list(zip(range(2, 10), range(2, 10))))
-    content = models.IntegerField(choices=list(zip(range(2, 10), range(2, 10))))
+    design = models.IntegerField(choices=list(zip(range(1, 10), range(1, 10))))
+    usability = models.IntegerField(choices=list(zip(range(1, 10), range(1, 10))))
+    content = models.IntegerField(choices=list(zip(range(1, 10), range(1, 10))))
 
 class MoringaMerch(models.Model):
     name = models.CharField(max_length=40)

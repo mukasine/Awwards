@@ -70,7 +70,7 @@ INSTALLED_APPS = [
     'bootstrap3',
     'django.contrib.staticfiles',
     'tinymce',
-    
+    'registration',
     'rest_framework',
 ]
 
